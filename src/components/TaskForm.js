@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import useTaskStore from '../store/taskStore'
+import Button from './Button'
 
 const TaskForm = () => {
     //const tasks = 
@@ -21,6 +22,7 @@ const TaskForm = () => {
       <button onClick={() => {
         handleSubmitTask()
       }}>Add Task</button>
+      <Button onClick={() => alert('1')}>Caca</Button>
     </div>
   )
 }
